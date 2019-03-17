@@ -9,7 +9,6 @@
     margin: 0 auto;
   }
   
-
   
 header {
     background-color: antiquewhite;
@@ -31,20 +30,21 @@ section {
   margin-top: 10px;
   float: left;
   width: 50%;
+  text-align: center; 
 }
 
-#article {
+.article {
   width: 411px;
   height: 150px;
   background-color: grey;
   padding: 1em;
   position: relative;
-  top: 25%;
+  top: 13%;
   left: 2%;
   right: 3%;
 }
 
-#h1h2h3 {
+.h1h2h3 {
   position: absolute; 
   width: 434px;
   height: 70px;
@@ -56,7 +56,7 @@ section {
   text-align: center;
 }
 
-#pbox {
+.pbox {
   position: absolute; 
   width: 434px;
   height: 70px;
@@ -84,3 +84,9 @@ footer {
   float: left; 
   width: 100%;
 }
+
+.headertext {
+  margin-top: -20px;
+  text-align: center;
+}
+
