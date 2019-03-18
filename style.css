@@ -2,23 +2,24 @@
   
   body {
     background: gray;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 32px;
-    color: #333;
+    color: #777;
     width: 960px; 
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif
   }
   
   
 header {
-    background-color: antiquewhite;
+    background-color: white;
     text-align: center;
     height: 100px;
     margin-top: 10px;
 }
 
 nav {
-  background-color: antiquewhite;
+  background-color:white;
     text-align: center;
     height: 100px;
     margin-top: 10px;
@@ -26,58 +27,62 @@ nav {
 
 section {
   height: 270px; 
-  background-color: antiquewhite;
+  background-color: white;
   margin-top: 10px;
   float: left;
-  width: 50%;
+  width: 495px;
   text-align: center; 
 }
 
 .article {
-  width: 411px;
-  height: 150px;
+  color: white;
+  width: 430px;
+  height: 160px;
   background-color: grey;
   padding: 1em;
   position: relative;
-  top: 13%;
-  left: 2%;
-  right: 3%;
+  top: 12%;
+  left: 3%;
+  right: 4%;
 }
 
-.h1h2h3 {
+.h1 {
   position: absolute; 
-  width: 434px;
+  width: 438px;
   height: 70px;
-  background-color: antiquewhite;
+  background-color: white;
   right: 3%;
   left: 3%;
-  bottom: 1%;
-  top: 20%;
+  bottom: 2%;
+  top: 15%;
   text-align: center;
+  color: #777;
 }
 
-.pbox {
+.p {
   position: absolute; 
-  width: 434px;
+  width: 438px;
   height: 70px;
-  background-color: antiquewhite;
+  background-color: white;
   right: 10px;
   left: 0px;
   top: 80px;
   text-align: center;
+  color: #777;
 }
 
 aside {
   height: 270px; 
-  background-color: antiquewhite;
+  background-color: white;
   margin-top: 10px;
+  position: relative;
   float: right;
-  width: 48%;
+  width: 440px;
   text-align: center; 
 }
 
 footer {
-  background-color: antiquewhite;
+  background-color: white;
   text-align: center;
   height: 100px;
   margin-top: 10px;
