@@ -14,14 +14,14 @@
 header {
     background-color: white;
     text-align: center;
-    height: 100px;
     margin-top: 10px;
+    padding: 35px;
 }
 
 nav {
   background-color:white;
     text-align: center;
-    height: 100px;
+    padding: 35px;
     margin-top: 10px;
 }
 
@@ -107,10 +107,10 @@ aside {
 footer {
   background-color: white;
   text-align: center;
-  height: 100px;
+  padding: 35px; 
   margin-top: 10px;
-  float: left; 
-  width: 100%;
+  float: left;
+  width: 891px;
 }
 
 .headertext {
