@@ -34,43 +34,66 @@ section {
   text-align: center; 
 }
 
+.section-container {
+  position: absolute;
+  left: 29%; 
+}
+
 .article {
   color: white;
   width: 430px;
-  height: 160px;
+  height: 180px;
   background-color: grey;
   padding: 1em;
   position: relative;
-  top: 12%;
+  top: 16%;
   left: 3%;
   right: 4%;
 }
 
-.h1 {
+.headertext {
   position: absolute; 
+  left: 44.5%;
+  top: 25px; 
+}
+
+
+.h1 {
+  position: relative; 
   width: 438px;
   height: 70px;
   background-color: white;
   right: 3%;
-  left: 3%;
-  bottom: 2%;
-  top: 15%;
+  left: -4px;
+  top: 30px;
   text-align: center;
   color: #777;
 }
 
-.p {
+.h1-container {
   position: absolute; 
+  left: 42%;
+  bottom: 19px;
+}
+
+
+.p {
+  position: relative; 
   width: 438px;
   height: 70px;
   background-color: white;
   right: 10px;
-  left: 0px;
-  top: 80px;
+  left: -4px;
+  top: 40px;
   text-align: center;
   color: #777;
 }
 
+.p-container {
+  position: absolute; 
+  left: 49%;
+  bottom: 19px;
+}
 aside {
   height: 270px; 
   background-color: white;
